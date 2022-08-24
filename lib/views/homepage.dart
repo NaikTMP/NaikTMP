@@ -3,7 +3,7 @@ import 'package:flutter_map/flutter_map.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:latlong2/latlong.dart';
 
-import '../constant/map.dart';
+import '../constant/mapbox_constant.dart';
 import '../models/map_maker.dart';
 
 class HomePage extends StatefulWidget {

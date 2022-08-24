@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import './views/homepage.dart';
 
 void main() {
@@ -11,6 +10,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        fontFamily: 'Poppins',
+      ),
       themeMode: ThemeMode.dark,
       darkTheme: ThemeData(
         brightness: Brightness.dark,
